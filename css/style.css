@@ -1,0 +1,330 @@
+:root{
+    --cor-principal:#FF7A00;
+    --fundo-principal: #000000;
+    --fundo-secundario: #ffffff;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+} 
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+} 
+button:hover{
+    opacity: 0.8;
+}
+body{
+    font-family: sans-serif;
+    background-color: #130d0d;
+}
+span{
+    color: var(--cor-principal);
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 95vh;
+}
+.ContainerText{
+    width: 50%;
+    height: 100vh;
+
+    padding-left: 2%;
+}
+.ContainerH1{
+    margin-top: 24%;
+    width: 97%;
+    margin-bottom: 5%;
+}
+.ContainerH1 h1{
+    color: var(--fundo-secundario);
+    font-size: 350%;
+}
+.ContainerH1 h1 span{
+    color: var(--cor-principal);
+    font-size: 140%;
+}
+.ContainerP{
+    width: 90%;
+    margin-bottom: 5%;
+    color: var(--fundo-secundario);
+}
+
+.ContainerP p{
+    font-size: 140%;
+}
+
+.ContainerButton{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 98%;
+}
+.ContainerButton button{
+    padding: 3% 25%;
+    font-size: 220%;
+    color: var(--fundo-secundario);
+    background-color: var(--cor-principal);
+    box-shadow: 0px 0px 30px 0px rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow: 1px 0px 30px 0px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: 1px 0px 30px 0px rgba(255, 255, 255, 0.75);
+}
+.ContainerImg{
+    width: 50%;
+    height: 100vh;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ContainerImg img{
+    width: 80%;
+    height: 60vh;
+}
+section.ContainerVantagens{
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: auto;
+}
+.Vantagens{
+    padding-top: 2%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+
+
+}
+.Vantagens p{
+    font-size: 140%;
+    color: var(--fundo-secundario);
+    text-align: center;
+    width: 80%;
+
+    margin-bottom: 5%;
+    
+}
+.ContainerH2{
+    text-align: center;
+}
+.ContainerH2 h2{
+    font-size: 230%;
+    color: var(--fundo-secundario);
+}
+.cards{
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+}
+.Container{
+    width: 15%;
+    height: 20vh;
+    background-color: var(--fundo-principal);
+    border-radius: 15px;
+    border-top: 2vw solid var(--cor-principal);
+    box-shadow: 0px 0px 30px 0px #FF7A00;
+    -webkit-box-shadow: 1px 0px 30px 0px #FF7A00;
+    -moz-box-shadow: 1px 0px 30px 0px #FF7A00;
+    padding: 2%;
+}
+.Container div img{
+    height: 10vh;
+}
+.Title{
+    font-size: 120%;
+    margin-top: 10%;
+    font-weight: 700;
+    color: var(--fundo-secundario);
+}
+.TextP{
+    margin-top: 10%;
+    color: var(--fundo-secundario);
+    padding-bottom: 10px;
+}
+section.Comprar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+div.comprar{
+    background-color: var(--fundo-principal);
+    margin-top: 3%;
+    border-radius: 15px;
+    border-top: 2vw solid var(--cor-principal);
+    width: 70%;
+    box-shadow: 0px 0px 30px 0px #FF7A00;
+    -webkit-box-shadow: 1px 0px 30px 0px #FF7A00;
+    -moz-box-shadow: 1px 0px 30px 0px #FF7A00;
+}
+.TitleCompra{
+    text-align: center;
+    font-size: 300%;
+    margin-top: 2%;
+    margin-bottom: 7%;
+    font-weight: 700;
+    color: var(--fundo-secundario);
+}
+.elementor-icon-list-text{
+    width: 100%;
+    color: var(--fundo-secundario);
+    display: inline-flex;
+    padding-left: 5%;
+    font-size: 200%;
+    margin-bottom: 5%;
+
+}
+.elementor-icon-list-text p{
+    padding-left: 5%;
+}
+i{
+    color: var(--cor-principal);
+}
+.pCompra{
+    text-align: center;
+    font-size: 210%;
+    margin-top: 2%;
+    margin-bottom: 7%;
+    font-weight: 700;
+    color: var(--fundo-secundario);
+}
+.Desconto{
+    margin-top: 5%;
+    font-size: 170%;
+}
+strong{
+    font-size: 150%;
+}
+.ComprarButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.ComprarButton button{
+    padding: 2% 25%;
+    font-size: 220%;
+    color: var(--fundo-secundario);
+    background-color: var(--cor-principal);
+    box-shadow: 0px 0px 30px 0px rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow: 1px 0px 30px 0px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: 1px 0px 30px 0px rgba(255, 255, 255, 0.75);  
+}
+footer{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+footer p{
+    color: #fff;
+    
+}
+footer div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 999px) { 
+    header{
+        display: block;
+    }
+    .ContainerText{
+        width: 90%;
+        height: auto;
+        padding-top: 5%;
+        padding-left: 5%;
+    }
+    .ContainerH1{
+        width: 95%;
+        margin-top: 0px;
+    }
+    .ContainerH1 h1{
+        color: var(--fundo-secundario);
+        font-size: 180%;
+    }
+    .ContainerP{
+        width: 95%;
+        margin-bottom: 5%;
+    }
+    .ContainerP p{
+        font-size: 130%;
+    }
+    .ContainerButton{
+        width: 90%;
+    }
+    .ContainerButton button{
+        padding: 1% 20%;
+        font-size: 200%;
+        margin-bottom: 5%;
+    }
+    .ContainerImg{
+        width: 100%;
+        height: 50vh;
+        background-color: #130d0d;
+        opacity: .2;
+    }
+    .ContainerImg img{
+        height: 40vh;
+        width: 90%;
+    }
+    .Vantagens{
+        padding: 0%;
+    }
+    .Container{
+        width: 80%;
+
+        margin-bottom: 15%;
+
+        display: block;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .Container div img{
+        height: 5vh; 
+        
+    }
+    .cards{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        
+        padding-left: 15%;
+    }
+    .TitleCompra{
+        font-size: 190%;
+    }
+    .elementor-icon-list-text {
+        font-size: 160%;
+    }
+    .TextP{
+        margin-top: 5%;
+    }
+    .ComprarButton button{
+        width: 80%;
+        font-size: 120%;
+    }
+    .elementor-icon-list-text{
+        padding-left: 1%; 
+    }
+    .elementor-icon-list-text p{
+        padding-left: 10%; 
+    }
+    
+}
